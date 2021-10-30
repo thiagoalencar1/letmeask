@@ -1,12 +1,11 @@
 import {Link} from 'react-router-dom';
 
-import illustrationImg from '../assets/images/illustration.svg'
-import logoImg from '../assets/images/logo.svg'
-import googleIconImg from '../assets/images/google-icon.svg'
+import illustrationImg from '../assets/images/illustration.svg';
+import logoImg from '../assets/images/logo.svg';
 
 import { Button } from '../components/Button';
 
-import '../styles/auth.scss'
+import '../styles/auth.scss';
 
 export function NewRoom() {
   return (
@@ -15,7 +14,7 @@ export function NewRoom() {
         <img src={illustrationImg} alt="" />
         <strong>Crie salas de Q&amp;A ao-vivo</strong>
         <p>Tire as dúvidas da sua audiência em tempo real.</p>
-      </aside>
+      </aside>cle
       <main>
         <div className="main-content">
           <img src={logoImg} alt="Letmeask" />
