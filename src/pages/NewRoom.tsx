@@ -1,7 +1,6 @@
 import { FormEvent, useState } from 'react'
 import { Link, useHistory } from 'react-router-dom';
 
-
 import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
 
@@ -58,7 +57,6 @@ export function NewRoom() {
           <p>
             Quer entrar em uma sala existente? <Link to="/">Clique aqui</Link>
           </p>
-
         </div>
       </main>
     </div>
