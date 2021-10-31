@@ -89,7 +89,7 @@ export function Room() {
 
     await database.ref(`rooms/${roomId}/questions`).push(question);
 
-    setNewQuestion('';)
+    setNewQuestion('');
   }
 
   return(
