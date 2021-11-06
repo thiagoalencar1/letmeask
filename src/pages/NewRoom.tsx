@@ -35,7 +35,7 @@ export function NewRoom() {
   return (
     <div id="page-auth">
       <aside>
-        <img src={illustrationImg} alt="" />
+        <img src={illustrationImg} alt="Q&amp;A" />
         <strong>Crie salas de Q&amp;A ao-vivo</strong>
         <p>Tire as dúvidas da sua audiência em tempo real.</p>
       </aside>cle

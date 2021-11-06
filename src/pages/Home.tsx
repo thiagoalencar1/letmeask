@@ -39,14 +39,18 @@ export function Home() {
       return;
     }
 
-    history.push(`/rooms/${roomCode}`);
+    if (roomRef.val().endedAt) {
+      alert('Room already closed.');
+      return;
+    }
 
+    history.push(`/rooms/${roomCode}`);
   }
   
   return (
     <div id="page-auth">
       <aside>
-        <img src={illustrationImg} alt="" />
+        <img src={illustrationImg} alt="Q&amp;A" />
         <strong>Crie salas de Q&amp;A ao-vivo</strong>
         <p>Tire as dúvidas da sua audiência em tempo real.</p>
       </aside>
@@ -69,7 +73,6 @@ export function Home() {
               Entrar na sala.
             </Button>
           </form>
-
         </div>
       </main>
     </div>

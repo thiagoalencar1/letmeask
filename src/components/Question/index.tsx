@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 
-import '.styles.scss';
+import './style.scss';
 
 type QuestionProps = {
   content: string,
